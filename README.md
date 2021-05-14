@@ -1,3 +1,20 @@
+# About
+
+get user profile using angularx-social-login
+
+For facebook-
+https://developers.facebook.com/apps/
+create an app and copy APPID and add it into the app module
+
+For google-
+https://developers.google.com/identity/sign-in/web/sign-in
+Create authorization credentials
+get clientid from there
+"YOUR_CLIENT_ID.apps.googleusercontent.com"
+
+packages used-
+ng add @angular/material
+npm i angularx-social-login
 # Social
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
