@@ -28,7 +28,8 @@ Simple WorldMap app to find countries.
 ### Packages used
 - ng add @angular/material
 - "angularx-social-login": "^3.5.6", - To get user profile
-
+   "express": "^4.19.2",
+    "path": "^0.12.7",
 ### Instructions
 - [create an FB app and copy APPID and add it into the app module](https://developers.facebook.com/apps/)
 - [Create authorization credentials get clientid from there "YOUR_CLIENT_ID.apps.googleusercontent.com"](https://developers.google.com/identity/sign-in/web/sign-in)
