@@ -14,6 +14,31 @@ export class LinkedinComponent implements OnInit {
   }
 
 }
+
+// Ya basically on our end we want a button that will import the experiences, education, and courses from Linkedin. After importing they get added on the frontend, relevant skills get auto-tagged, and the company, type, project title, industry, role, dates, skills, bullets should get auto-added, leveraging the gpt api as needed to transform the description into the bullet format. However the user still has to press save for the new experiences to get added on. Also it would be nice if gpt or some algorithm could check that duplicate experiences are not added on further.
+
+// For getting this information you need to be a LinkedIn parther
+
+//     https://code.jquery.com/jquery-3.6.0.min.js
+
+//  write a LinkedIn scraper
+
+// best way to do it is via python selenium
+
+// Developer Partner Support Site E-Mail Setup
+
+// https://www.linkedin.com/oauth/zendesk
+
+// https://stackoverflow.com/questions/41090398/get-full-work-history-and-skills-from-linkedin
+
+// LinkedIn Shuts Out Developers By Locking Down Its APIs (thenextweb.com) 
+// https://thenextweb.com/news/linkedin-takes-aim-developers-plans-lock-apis
+// Changes to our Developer Program | LinkedIn Developer Network
+// https://developer.linkedin.com/blog/posts/2015/developer-program-changes
+// https://community.auth0.com/t/the-linkedin-login-is-deprecated-updating-to-the-new-scopes-is-necessary/113696/30
+
+// # https://www.scrapingdog.com/blog/scrape-linkedin-profiles-using-python/
+
 // 2 ways-
 
 // Two legged auth is not available for any use case where member data is retrieved. All calls for member data must be three legged.
