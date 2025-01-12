@@ -138,3 +138,12 @@ export class LinkedinComponent implements OnInit {
 
 // https://learn.microsoft.com/en-us/linkedin/consumer/integrations/self-serve/plugins/autofill-plugin 
 // https://api.linkedin.com/v1/people/~:(id,first-name,last-name,headline,picture-url,industry,summary,specialties,positions:(id,title,summary,start-date,end-date,is-current,company:(id,name,type,size,industry,ticker)),educations:(id,school-name,field-of-study,start-date,end-date,degree,activities,notes),associations,interests,num-recommenders,date-of-birth,publications:(id,title,publisher:(name),authors:(id,name),date,url,summary),patents:(id,title,summary,number,status:(id,name),office:(name),inventors:(id,name),date,url),languages:(id,language:(name),proficiency:(level,name)),skills:(id,skill:(name)),certifications:(id,name,authority:(name),number,start-date,end-date),courses:(id,name,number),recommendations-received:(id,recommendation-type,recommendation-text,recommender),honors-awards,three-current-positions,three-past-positions,volunteer) - not working currently
+
+// [1 hour] We need to add "ldtalent" to the LinkedIn network API so that we can create and work on the integration.
+// [3-5 hours] Need to check the authorization process. There are multiple types here.
+// [2-3 hours] We need to determine how to obtain permission to access and extract the user's personal information after obtaining their consent.
+// [1-3 hours] After obtaining consent from the user, we can extract the OAuth access token.
+// [2-3 hours] We need to work on the process of returning the user to the "ldtalent" page after obtaining their consent.
+// [6-7 hours] Retrieve JSON data from the token API and bind it into the EJS template.
+// [1-3 hours] Conduct a sanity test to ensure that everything is functioning perfectly and allocate some time for researching to ensure everything is up to par.
+// [3-4 hours] If nothing works as expected, I will explore using a third-party library or Python package to extract information.
