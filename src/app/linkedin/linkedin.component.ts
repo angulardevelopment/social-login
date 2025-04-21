@@ -111,7 +111,7 @@ export class LinkedinComponent implements OnInit {
 
 //     "email_verified": true,
 
-//     "name": "\uD83E\uDDD1‍\uD83D\uDCBB  Sunny Gupta",
+//     "name": "\uD83E\uDDD1‍\uD83D\uDCBB  username",
 
 //     "locale": {
 
@@ -121,7 +121,7 @@ export class LinkedinComponent implements OnInit {
 
 //     },
 
-//     "given_name": "\uD83E\uDDD1‍\uD83D\uDCBB  Sunny",
+//     "given_name": "\uD83E\uDDD1‍\uD83D\uDCBB  username",
 
 //     "family_name": "Gupta",
 
